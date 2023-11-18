@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+.App {
+  margin: 0;
+  font-family: "Segoe UI";
+  /* text-align: center; */
+  color: #333;
+  background-color: whitesmoke;
+
+  /* seashell, powderblue  ,rgb(191, 222, 226)*/
+}
+
+/* Navabar */
+.navbar {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: crimson;
+  font-size: 40px;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 6px;
+  color: #333;
+}
+
+.navbar a:hover {
+  color: crimson;
+}
+
+button {
+  /* margin-left: 15px; */
+  font-family: "Segoe UI";
+  padding: 16px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: rgb(255, 165, 0);
+}
+
+/* HeroPage */
+.heropage-50 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1050px;
+  margin: 10px auto;
+}
+.flex-50 {
+  margin-top: 50px;
+  flex: 50%;
+  justify-content: center;
+}
+.heropage-33 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 10px auto;
+}
+.flex-33 {
+  flex: 33.333333%;
+  max-width: 1500px;
+  justify-content: space-evenly;
+}
+.heropage h1 {
+  color: crimson;
+}
+.heropage p {
+  color: orangered;
+  font-size: 25px;
+  font-weight: 600;
+}
+.heroimage-50 {
+  flex: 50%;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+}
+.heroimage-33 {
+  flex: 33.333333%;
+  width: 300px;
+  height: 250px;
+  margin: auto;
+}
+
+/* Form*/
+
+.proform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 35em;
+  height: auto;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: rgb(250, 190, 130);
+  border-radius: 1em;
+}
+
+label {
+  padding: 10px;
+
+  max-width: 300px;
+}
+input {
+  max-width: 300px;
+  padding: 3px;
+
+  font-size: 15px;
+  margin: 3px;
+}
+select {
+  max-width: 200px;
+  padding: 3px;
+  font-size: 15px;
+}
+
+.cal {
+  width: 500px;
+}
+.cal .button {
+  color: rgb(247, 169, 53);
+}
+.card-flex {
+  display: flex;
+}
+.card {
+  box-sizing: border-box;
+  width: 280px;
+  padding: 20px;
+  border: 3px ridge paleturquoise;
+}
+
+.profile-nav {
+  font-weight: bold;
+  background-color: paleturquoise;
+  border-radius: 1em;
+  max-width: 110px;
+}
