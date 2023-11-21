@@ -27,7 +27,7 @@ const Profile = () => {
             <option value="lab">Labrador Retriever</option>
             <option value="gr">Golden Retriever</option>
           </select>
-          <label htmlFor="">Weight Kg</label>
+          <label htmlFor="">Weight in Kg</label>
           <input type="number" name="weight" />
           <label>Food</label>
           <select name="" id="">
