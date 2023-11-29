@@ -12,7 +12,7 @@ const Heropage = () => {
         <div className="flex-50">
           <h1>Pet parenting made cool.. </h1>
           <p>Pet Portfolio to manage all their needs</p>
-          <p> Veterinary,Food, Adoption, Pet day care and more </p>
+          <p> Veterinary,Food, Adoption, Pet day care and much more </p>
         </div>
         <HeroImage3 className="heroimage-50" />
       </div>

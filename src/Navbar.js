@@ -13,8 +13,9 @@ const Navbar = () => {
         <a href="/Vet">Doctor Saab</a>
         <a href="/food">Food Dada</a>
       </div> */}
-
+      <a href="/SignIn">
       <button type="submit">Sign in</button>
+      </a>
     </nav>
   );
 };
