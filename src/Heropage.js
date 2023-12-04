@@ -46,6 +46,17 @@ const Heropage = () => {
           </a>
         </div>
       </div>
+
+      <div className="heropage-50">
+        <HeroImage6 className="heroimage-50" />
+        <div className="flex-50">
+          <p>Welcome to Our Pet Store!</p>
+          <p>Find a wide range of quality pet products and services to keep your pets happy and healthy</p>
+          <a href="/Petstore">
+            <button>Pet Store</button>
+          </a>
+        </div>
+      </div>
     </>
   );
 };

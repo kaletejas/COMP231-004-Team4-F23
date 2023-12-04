@@ -4,6 +4,7 @@ import "./app.css";
 import Navbar from "./Navbar";
 import Heropage from "./Heropage";
 import Profile from "./Profile";
+import Petstore from "./Petstore";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route exact path="/Doctor">
               <Profile />
+            </Route>
+            <Route exact path="/Petstore">
+              <Petstore />
             </Route>
           </Switch>
         </div>
