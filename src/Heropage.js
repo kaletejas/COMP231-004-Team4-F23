@@ -45,6 +45,13 @@ const Heropage = () => {
             <button>Doc's Clinic</button>
           </a>
         </div>
+
+        <div className="flex-50">
+          <h1> Connect with our Professional trainers and train your Pet virtually!! </h1>
+          <a href="/ContactForm">
+            <button>Contact with Trainers</button>
+          </a>
+        </div>
       </div>
     </>
   );

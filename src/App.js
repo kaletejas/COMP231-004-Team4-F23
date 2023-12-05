@@ -5,6 +5,8 @@ import Navbar from "./Navbar";
 import Heropage from "./Heropage";
 import Profile from "./Profile";
 import SignIn from "./SignIn";
+import ContactForm from "./ContactForm";
+import Trainer from "./Trainer";
 
 function App() {
   const handleSignIn = () => {
@@ -29,6 +31,12 @@ function App() {
             </Route>
             <Route exact path="/SignIn">
               <SignIn onSignIn={handleSignIn} /> {/* Pass onSignIn prop */}
+            </Route>
+            <Route exact path="/ContactForm">
+              <ContactForm />
+            </Route>
+            <Route exact path="/Trainer">
+              <Trainer />
             </Route>
           </Switch>
         </div>

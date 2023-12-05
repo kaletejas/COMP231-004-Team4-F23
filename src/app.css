@@ -216,3 +216,90 @@ select {
   font-weight: bold;
   color: #3498db;
 }
+
+/* ContactForm */
+
+.contact-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: crimson;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 10px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+/* Trainer */
+.trainer-info {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-info h2 {
+  text-align: center;
+  color: crimson;
+}
+
+.trainer-info p {
+  margin-bottom: 10px;
+}
+
+.trainer-info ul,
+.trainer-info ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.trainer-info li {
+  margin-bottom: 5px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+  .trainer-info {
+    padding: 15px;
+  }
+}
