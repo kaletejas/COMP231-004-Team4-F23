@@ -4,9 +4,11 @@ import "./app.css";
 import Navbar from "./Navbar";
 import Heropage from "./Heropage";
 import Profile from "./Profile";
+import Doctor from "./Doctor";
 import SignIn from "./SignIn";
 import ContactForm from "./ContactForm";
 import Trainer from "./Trainer";
+import Appointment from "./Appointment";
 
 function App() {
   const handleSignIn = () => {
@@ -27,7 +29,7 @@ function App() {
               <Profile />
             </Route>
             <Route exact path="/Doctor">
-              <Profile />
+              <Doctor />
             </Route>
             <Route exact path="/SignIn">
               <SignIn onSignIn={handleSignIn} /> {/* Pass onSignIn prop */}
@@ -37,6 +39,9 @@ function App() {
             </Route>
             <Route exact path="/Trainer">
               <Trainer />
+            </Route>
+            <Route exact path="/Appointment">
+              <Appointment />
             </Route>
           </Switch>
         </div>
