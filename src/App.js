@@ -10,6 +10,7 @@ import ContactForm from "./ContactForm";
 import Trainer from "./Trainer";
 import Appointment from "./Appointment";
 import PetRoutine from "./PetRoutine";
+import PetPharmacy from "./PetPharmacy";
 
 function App() {
   const handleSignIn = () => {
@@ -46,6 +47,9 @@ function App() {
             </Route>
             <Route exact path="/PetRoutine">
               <PetRoutine />
+            </Route>
+            <Route exact path="/PetPharmacy">
+              <PetPharmacy />
             </Route>
           </Switch>
         </div>

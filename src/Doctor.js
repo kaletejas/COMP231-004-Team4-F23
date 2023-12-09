@@ -1,7 +1,7 @@
 // Doctor.js
 
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import {Link, useHistory } from "react-router-dom";
 import Calendar from "react-calendar";
 
 const Doctor = () => {
@@ -124,8 +124,11 @@ const Doctor = () => {
       )}
 
       <button onClick={scheduleAppointment}>Schedule Appointment</button>
+      <Link to="/PetPharmacy">Go to Pet Pharmacy</Link>
     </div>
+    
   );
+  
 };
 
 export default Doctor;

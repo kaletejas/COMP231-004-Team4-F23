@@ -357,4 +357,112 @@ select {
   margin-bottom: 8px;
   color: #555;
 }
+/* Add this at the bottom of app.css */
+/* Add this to the end of your app.css file */
+
+/* Add this to the end of your app.css file */
+
+.pet-pharmacy-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h2 {
+  color: crimson;
+}
+
+.medicine-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.medicine-item {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.medicine-details {
+  padding: 10px;
+}
+
+.medicine-details h3 {
+  margin-top: 0;
+}
+
+.medicine-details p {
+  color: #555;
+}
+
+.medicine-details button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.medicine-details button:hover {
+  background-color: #45a049;
+}
+
+.cart-container {
+  margin-top: 20px;
+}
+
+.cart-container h3 {
+  color: crimson;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+/* Add this CSS code at the bottom of your app.css file */
+
+.remove-from-cart {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #e74c3c; /* Red color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.remove-from-cart:hover {
+  background-color: #c0392b; /* Darker red color on hover */
+}
+/* ... (existing styles) */
+
+.medicine-image {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  object-fit: cover; /* This property ensures the image maintains its aspect ratio */
+}
+
+/* ... (existing styles) */
+
+
+
 
