@@ -1,5 +1,3 @@
-// AppointmentPage.js
-
 import React from "react";
 import { Link, useHistory } from "react-router-dom";
 
@@ -20,13 +18,17 @@ const AppointmentPage = () => {
     <div>
       <h2>Appointment Confirmed!</h2>
       <p>Your appointment has been scheduled successfully.</p>
-      
+
       <ul>
         <li>
-          <button onClick={handleSetReminder}>Set Reminder</button> <br/> <br/>
+          <button onClick={handleSetReminder}>Set Reminder</button> <br/><br/>
         </li>
         <li>
-          <button onClick={handleChangeDate}>Change Date</button>
+          <button onClick={handleChangeDate}>Change Date</button> <br/><br/>
+        </li>
+        <li>
+          {/* Link to PetRoutine component */}
+          <Link to="/PetRoutine">Go to Pet Routine</Link>
         </li>
       </ul>
     </div>

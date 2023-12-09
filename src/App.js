@@ -9,6 +9,7 @@ import SignIn from "./SignIn";
 import ContactForm from "./ContactForm";
 import Trainer from "./Trainer";
 import Appointment from "./Appointment";
+import PetRoutine from "./PetRoutine";
 
 function App() {
   const handleSignIn = () => {
@@ -42,6 +43,9 @@ function App() {
             </Route>
             <Route exact path="/Appointment">
               <Appointment />
+            </Route>
+            <Route exact path="/PetRoutine">
+              <PetRoutine />
             </Route>
           </Switch>
         </div>
