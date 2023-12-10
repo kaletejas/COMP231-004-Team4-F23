@@ -4,6 +4,7 @@ import { ReactComponent as HeroImage3 } from "./good_dog.svg";
 import { ReactComponent as HeroImage4 } from "./dog_walking3.svg";
 import { ReactComponent as HeroImage5 } from "./pet_calendar.svg";
 import { ReactComponent as HeroImage6 } from "./pets_med.svg";
+import {Link} from "react-router-dom";
 const Heropage = () => {
   // const title = "Pet Parenting made cool..";
   return (
@@ -44,6 +45,13 @@ const Heropage = () => {
           <a href="/Doctor">
             <button>Doc's Clinic</button>
           </a>
+        </div>
+
+        <div className="flex-50">
+          <h1> Take your Pet on Vacations!! Visit our Hotel </h1>
+          <Link to="/PetHotel">
+            <button>Visit Pet Hotel</button>
+          </Link>
         </div>
 
         <div className="flex-50">

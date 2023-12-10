@@ -463,6 +463,61 @@ p {
 
 /* ... (existing styles) */
 
+/* PetHotel.css */
+
+.pet-hotel-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.room-list {
+  margin-bottom: 20px;
+}
+
+.room-list h3 {
+  color: crimson;
+}
+
+.room-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.room-list li {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.room-list li button {
+  margin-left: 10px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.room-list li button:hover {
+  background-color: #45a049;
+}
+
+.booking-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.booking-history li {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+
 
 
 
