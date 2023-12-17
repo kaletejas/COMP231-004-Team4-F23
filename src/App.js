@@ -11,6 +11,7 @@ import Trainer from "./Trainer";
 import Appointment from "./Appointment";
 import PetRoutine from "./PetRoutine";
 import PetPharmacy from "./PetPharmacy";
+import PetHotel from "./PetHotel";
 
 function App() {
   const handleSignIn = () => {
@@ -51,6 +52,10 @@ function App() {
             <Route exact path="/PetPharmacy">
               <PetPharmacy />
             </Route>
+            <Route exact path="/PetHotel">
+              <PetHotel />
+            </Route>
+
           </Switch>
         </div>
       </div>
